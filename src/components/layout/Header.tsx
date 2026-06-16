@@ -25,10 +25,10 @@ export default function Header() {
             onClick={() => setActiveModule("feed")}
             className="flex items-center gap-2 cursor-pointer"
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-violet-700 flex items-center justify-center shadow-lg shadow-purple-900/50">
+            <div className="w-8 h-8 rounded-lg bg-purple-600 flex items-center justify-center shadow-lg shadow-purple-900/50">
               <Laugh className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-lg gradient-text hidden sm:block">MemeFlow</span>
+            <span className="font-bold text-lg text-purple-600 hidden sm:block">MemeFlow</span>
           </button>
         </div>
 

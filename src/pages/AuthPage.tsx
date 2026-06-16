@@ -91,10 +91,10 @@ export default function AuthPage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-8"
         >
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-violet-700 shadow-2xl shadow-purple-900/50 mb-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-purple-600 shadow-2xl shadow-purple-900/50 mb-4">
             <Laugh className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold gradient-text">MemeFlow</h1>
+          <h1 className="text-3xl font-bold text-purple-600">MemeFlow</h1>
           <p className="text-zinc-400 text-sm mt-1">A rede social do humor</p>
         </motion.div>
 
